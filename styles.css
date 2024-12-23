@@ -1,0 +1,350 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  
+  
+}
+
+header {
+  background-color: #CBDCEB;
+  text-align: center;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h3 {
+    display: block;
+    font-size: 1.6em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+	color: #ffff;
+	font-family: monospace;
+}
+
+h4 {
+    display: block;
+    margin-block-start: 1.20em;
+    margin-block-end: 1.20em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container {
+  display: flex;
+  height: 80vh;
+}
+
+.left-panel {
+  width: 15%;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 2px solid #ddd;
+  
+  
+}
+
+.right-panel {
+  width: 85%;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.category {
+  margin-bottom: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  
+}
+
+.category:hover {
+  color: #ffcc00;
+}
+
+#category-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+.card-catalog {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-item {
+  width: 20%;
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.card-item img {
+  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.card-item img:hover {
+  transform: scale(1.05);
+}
+
+.card-item button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 8px 16px;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card-item button:hover {
+  background-color: #f79c42;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* SPA Navigation Styles */
+.nav {
+  display: flex;
+  justify-content: center;
+  background-color: #CBDCEB;
+  padding: 10px;
+}
+
+.nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  color: #f79c42;
+}
+
+.page {
+  display: none;
+}
+
+.page:first-of-type {
+  display: block;
+}
+
+/* Styles for the Messaged Page */
+.messaged-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.left-half {
+  width: 48%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.right-half {
+  width: 48%;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+/* Styling for the textarea */
+textarea {
+  width: 95%;
+  height: 50%;
+  font-size: 34px;
+  font-family:hwBernie;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+}
+
+/* Styling for the textarea options */
+.textarea-options {
+  margin-top: 20px;
+}
+
+.textarea-options label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.textarea-options select {
+  margin: 5px 10px 20px 0;
+  padding: 5px;
+  font-size: 14px;
+}
+
+/* Styling for the form in the right section */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  margin-left: 10px;
+}
+
+form input {
+  width: 90%;
+  padding: 8px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+}
+
+form select {
+  width: 40%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  margin-left: 10px;
+}
+
+/* Submit Button */
+form button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+form button:hover {
+  background-color: #f79c42;
+}
+
+/* For Font Styles (if custom fonts are used) */
+@font-face {
+  font-family: 'hwBeau';
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBeau.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hwBernie';
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBernie.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'hwBlaire';
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBlaire.ttf') format('truetype');
+}
+
+
+textarea[style*="font-family: hwBeau"] {
+  font-family: 'hwBeau', sans-serif;
+}
+
+textarea[style*="font-family: hwBernie"] {
+  font-family: 'hwBernie', sans-serif;
+}
+
+textarea[style*="font-family: hwBlaire"] {
+  font-family: 'hwBlaire', sans-serif;
+}
+
+
+.card-selected-section {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.card-selected-section h3 {
+  font-size: 1.3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.card-details {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.card-thumbnail {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
+.card-info {
+  flex-grow: 1;
+}
+
+#pricing-table {
+  width: 100%;
+  margin-top: 10px;
+  border-collapse: collapse;
+}
+
+#pricing-table th,
+#pricing-table td {
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+#pricing-table th {
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+#pricing-table .price {
+  color: red; /* Red prices to grab attention */
+  font-weight: bold;
+}
+
+/* Style the table headers and rows horizontally */
+#pricing-table thead {
+  text-align: center;
+}
+
+#pricing-table td {
+  padding: 10px;
+}
