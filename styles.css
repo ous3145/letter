@@ -256,17 +256,17 @@ form button:hover {
 /* For Font Styles (if custom fonts are used) */
 @font-face {
   font-family: 'hwBeau';
-  src: url('fonts/hwBeau.ttf') format('truetype');
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBeau.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'hwBernie';
-  src: url('fonts/hwBernie.ttf') format('truetype');
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBernie.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'hwBlaire';
-  src: url('fonts/hwBlaire.ttf') format('truetype');
+  src: url('https://github.com/ous3145/letter/blob/main/fonts/hwBlaire.ttf') format('truetype');
 }
 
 
