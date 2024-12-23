@@ -1,7 +1,7 @@
 // Example data for the cards
 const cardsData = [
-  { id: 1, title: 'Anniversary Card', category: 'anniversary', image: 'images/anniversary1.jpg', gif: 'gif/anniversary1.gif' },
-  { id: 2, title: 'Birthday Card', category: 'birthday', image: 'images/birthday1.jpg', gif: 'gif/front-back.gif' },
+  { id: 1, title: 'Anniversary Card', category: 'anniversary', image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh0CeakbxiTQi8fua8sUbQpEntnsrbtILQdDZFh3umFFp_5JELbSuHisjxZEGOQ-OsU_Bu4wdOAUuEPejoVeRXEtR1x4V5johOf4UWOqPrTysrBXFkQ4hOBqO6k9CCVA3Pgwkrxerz9nZg__L47E_fH52A3gReN3LOT5lgB8bUPjvFGA-tpikEqZPSvQRU/s920/anniversary1.jpg', gif: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWs_OT8eCNOZ3T91JcCwdxbuJ-0cROcTMQNtznMTaPdgL53GpVb9g6tyd35Pq8501oawqbYe2Dp6xRbMH60yMuhUGekYAHjz0hlkGk8r25JhXbMKpWnUcc_DBp5KJ5V44S9L-vhV3YzQkQngtuBc71PH0V9Yj-HksxthAop0MNdUyL8r1S6EqYv6xh1mc/s380/anniversary1.gif' },
+  { id: 2, title: 'Birthday Card', category: 'birthday', image: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8_V_38g5j9ZRS8mpyCArZ8B1756VEV8Dmawd9fkCZ60hJPuAlAuNxMxTPJzoMw-_MF0ieJXN99SUXDmcLw9wyVkay1JpkEv1cOZAZ8SD-4-CVRK-57KypvhKcGBkOuYoO8hFofbyoxEgM1F4vw00jBV_t44jf4u91aOH_5rI2E_pBIT27kViB7Vei-QI/s825/anniversary2.jpg', gif: 'https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgjwdiwWWxjkWntf4w-H9u-SXklgNppgBt3a2qYeGRst2yyxQwKz9EaRWjAJAMOfrJurpE1uh75OFFZcST7CXNobn6_RmSfhxvpffBfRI1kgburX_YAaffg6ZCxevwBBT1K7t0JquOz1aiXzyh15Jz6D9wxasHjSQ-KCbZ6kR158z7tusNqi3u0RZTCj5Q/s380/anniversary2.gif' },
   { id: 3, title: 'Congratulations Card', category: 'congratulations', image: 'images/congratulations1.jpg', gif: 'gif/congratulations1.gif' },
   { id: 4, title: 'Halloween Card', category: 'halloween', image: 'images/halloween1.jpg', gif: 'gif/front-back.gif' },
   { id: 5, title: 'Happy Holidays Card', category: 'happy-holidays', image: 'images/holidays1.jpg', gif: 'gif/holidays1.gif' },
